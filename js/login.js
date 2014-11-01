@@ -20,8 +20,7 @@ var aryUsers = [];
  });
 //==========================================================
 function go(){
-
-    var publink = "https://dl.dropboxusercontent.com/u/21142484/.Mobile.Apps/StudentLookup/";//"https://dl.dropbox.com/u/21142484/StudentLookup/";
+    var publink = "https://dl.dropboxusercontent.com/u/21142484/.Mobile.Apps/OldStudentLookup/";//"https://dl.dropbox.com/u/21142484/StudentLookup/";
     //https://dl.dropboxusercontent.com/u/21142484/.Mobile.Apps/StudentLookup/
     var users = publink + txtPwd.value + "/usernames";
     var userAjax = new HttpObject();
